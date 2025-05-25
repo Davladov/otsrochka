@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Законная отсрочка</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@unocss/reset/tailwind.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
+  <style>
+    body {@apply bg-gradient-to-br from-blue-100 to-blue-200 text-slate-800 font-sans;}
+    .glass-button {@apply bg-white/60 backdrop-blur border border-slate-300 rounded-xl px-6 py-3 font-semibold text-slate-800 hover:bg-white transition-all;}
+    .card {@apply bg-white rounded-xl p-6 shadow-md w-full sm:w-[45%] md:w-[22%];}
+    section {@apply max-w-6xl mx-auto px-4 py-12;}
+    iframe {@apply w-full h-[600px] rounded-xl border-none mt-6;}
+    form input, form select {@apply p-3 rounded-lg border border-slate-300;}
+    form button {@apply bg-blue-600 text-white p-3 rounded-lg font-semibold hover:bg-blue-700 transition-all;}
+  </style>
+</head>
+<body>
+  <header class="text-center py-20">
+    <div class="text-3xl font-bold">⚖️ Законная отсрочка</div>
+    <h1 class="text-2xl md:text-4xl max-w-2xl mx-auto mt-6 font-semibold">Получите отсрочку от армии в Казахстане — законно и без стресса</h1>
+    <p class="text-lg text-slate-600 max-w-xl mx-auto mt-4">Юридическая помощь, документы и ИИ-консультант — всё в одном месте.</p>
+    <a href="#form" class="glass-button inline-block mt-6">Проверить шансы</a>
+  </header>
+
+  <section>
+    <h2 class="text-2xl font-bold text-center mb-8">Наши преимущества</h2>
+    <div class="flex flex-wrap justify-center gap-4">
+      <div class="card"><h3 class="text-lg font-bold">✅ Законно</h3><p>Официальные, проверенные способы. Без риска и нарушений.</p></div>
+      <div class="card"><h3 class="text-lg font-bold">👨‍⚖️ Юридическая поддержка</h3><p>Наши юристы сопровождают вас на каждом этапе.</p></div>
+      <div class="card"><h3 class="text-lg font-bold">⚡ Быстро</h3><p>Консультация в течение часа. Подготовка — от 1 дня.</p></div>
+      <div class="card"><h3 class="text-lg font-bold">🤖 ИИ-помощник</h3><p>Бот на сайте доступен 24/7. Ответы моментально.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="text-2xl font-bold text-center mb-8">Как это работает</h2>
+    <div class="flex flex-wrap justify-center gap-4">
+      <div class="card"><h3 class="text-lg font-bold">📋 Оставляете заявку</h3><p>Форма займёт всего минуту — просто заполните.</p></div>
+      <div class="card"><h3 class="text-lg font-bold">📞 Получаете консультацию</h3><p>Юрист или бот свяжется, чтобы уточнить детали.</p></div>
+      <div class="card"><h3 class="text-lg font-bold">📑 Оформляем документы</h3><p>Готовим все справки и заключения в кратчайшие сроки.</p></div>
+      <div class="card"><h3 class="text-lg font-bold">🛡️ Получаете отсрочку</h3><p>Вы официально освобождаетесь от призыва.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="text-2xl font-bold text-center mb-6">Онлайн-консультант</h2>
+    <iframe src="https://gptbots.xyz/embed/68338916647b1d2a612e884d"></iframe>
+  </section>
+
+  <section id="form">
+    <h2 class="text-2xl font-bold text-center mb-6">Форма заявки</h2>
+    <form class="max-w-xl mx-auto flex flex-col gap-4">
+      <input type="text" placeholder="Ваше имя" required>
+      <input type="tel" placeholder="Номер телефона" required>
+      <select required>
+        <option disabled selected>Что вас интересует?</option>
+        <option>Здоровье</option>
+        <option>Учёба</option>
+        <option>Опека</option>
+        <option>Другое</option>
+      </select>
+      <button type="submit">Отправить</button>
+    </form>
+  </section>
+
+  <footer class="text-center py-10 text-slate-500">
+    &copy; 2025 Законная отсрочка — Все права защищены.
+  </footer>
+</body>
+</html>
